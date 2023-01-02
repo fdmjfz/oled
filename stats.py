@@ -31,7 +31,7 @@ top = padding
 bottom = height-padding
 x = 0
 
-font = ImageFont.truetype('/home/fdmrpi/Documents/python/oled/font/OpenSans-Bold.ttf', 12, encoding='unic')
+font = ImageFont.truetype('/home/fdmrpi/python/oled/font/OpenSans-Bold.ttf', 12, encoding='unic')
 
 while True:
     draw.rectangle((0, 0, width, height),
